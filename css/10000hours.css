@@ -1,0 +1,309 @@
+@font-face {
+  font-family: "OTEnjoystoriesBA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansBold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff")
+      format("woff"),
+    url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
+      format("opentype");
+}
+
+body {
+  font-family: Noto Sans KR;
+  background-color: #5b2386;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+main {
+  margin-top: 125px;
+  font-size: 24px;
+  @media (max-width: 767px) {
+    margin-top: 69px;
+    font-size: 14px;
+  }
+}
+
+.title {
+  position: relative;
+  margin-top: 194px;
+  @media (max-width: 767px) {
+    margin-top: 76px;
+  }
+}
+.title > .clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.quotation {
+  color: #f5df4d;
+  font-family: OTEnjoystoriesBA;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39.6px;
+  @media (max-width: 767px) {
+    font-size: 22px;
+    line-height: 24.2px;
+  }
+}
+.quotation > .details {
+  position: relative;
+  margin-top: 73px;
+  font-family: GmarketSansMedium;
+  font-size: 18px;
+  line-height: 31px;
+  color: #ffffff;
+
+  @media (max-width: 767px) {
+    line-height: 27px;
+    font-size: 14px;
+  }
+}
+.quotation > .details > span {
+  font-family: GmarketSansBold;
+  line-height: 24px;
+  @media (max-width: 767px) {
+    line-height: 27px;
+  }
+}
+.quotation > .details > img {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.resolution {
+  font-family: GmarketSansMedium;
+  color: #ffffff;
+  margin-top: 102px;
+  margin-bottom: 115px;
+  @media (max-width: 767px) {
+    margin-top: 62px;
+    margin-bottom: 49px;
+  }
+}
+.resolution > .hour > span {
+  @media (max-width: 767px) {
+    display: block;
+    margin-bottom: 17px;
+  }
+}
+.resolution > * {
+  margin-bottom: 27px;
+  @media (max-width: 767px) {
+    margin-bottom: 17px;
+  }
+}
+.resolution > *:last-child {
+  margin-bottom: 0;
+}
+.resolution > .expert > input,
+.resolution > .hour > input {
+  font-family: GmarketSansMedium;
+  display: inline-block;
+  width: 228px;
+  height: 57px;
+  /* line-height: 57px; */
+  border-radius: 7px;
+  background: #ffffff;
+  margin: 0 17px;
+  text-align: center;
+  vertical-align: middle;
+
+  @media (max-width: 767px) {
+    margin: 0 4px;
+    width: 156px;
+    height: 37px;
+  }
+}
+.resolution > .hour > input:last-child {
+  @media (max-width: 767px) {
+    margin-left: 0;
+  }
+}
+
+.resolution > .expert > input::placeholder,
+.resolution > .hour > input::placeholder {
+  color: #babcbe;
+}
+button {
+  cursor: pointer;
+  font-family: GmarketSansBold;
+  font-size: 24px;
+  background: #fcee21;
+  color: #5b2386;
+  padding: 21px 49px;
+  border-radius: 56px;
+  box-shadow: 0px 0px 10px 0px #00000080;
+  @media (max-width: 767px) {
+    font-size: 14px;
+    padding: 13.5px 17.5px 12.5px 17.5px;
+  }
+}
+.calculate-days {
+  position: relative;
+}
+.calculate-days > button {
+  @media (max-width: 767px) {
+    width: 241px;
+    height: 68px;
+    border-radius: 13px;
+  }
+}
+.calculate-days > button > span {
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+.calculate-days > img {
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 7px;
+  @media (max-width: 767px) {
+    margin-top: 30px;
+    margin-left: 6px;
+  }
+}
+.calculation-result {
+  margin: 147px 0 127px 0;
+  font-family: GmarketSansMedium;
+  color: #ffffff;
+
+  @media (max-width: 767px) {
+    margin: 64px 0 55px 0;
+  }
+}
+
+.calculation-result > .expert > span,
+.calculation-result > .hour > span {
+  font-family: GmarketSansBold;
+  font-size: 72px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 12px;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+    margin: 0 8px;
+  }
+}
+.calculation-result > .expert {
+  margin-bottom: 17px;
+}
+button#share {
+  background: #ffffff;
+  color: #5b2386;
+}
+
+.buttons > #go-train {
+  margin-right: 18px;
+  @media (max-width: 767px) {
+    margin-right: 13px;
+  }
+}
+footer {
+  margin: 70px 0 130px 0;
+  @media (max-width: 767px) {
+    margin: 83px 0 32px 0;
+  }
+}
+.copyright-notice {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.38px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+
+  @media (max-width: 767px) {
+    font-size: 9px;
+    margin-top: 17px;
+    line-height: 13.03px;
+  }
+}
+.modal {
+  display: none;
+  position: absolute;
+  width: 800px;
+  /* height: 800px; */
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px #00000080;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 76px 0 68px 0;
+  @media (max-width: 767px) {
+    width: 330px;
+    /* height: 500px; */
+    padding: 40px 0;
+  }
+}
+.modal > p > span {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.modal > p {
+  font-family: OTEnjoystoriesBA;
+  color: #5b2386;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 105.6px;
+  @media (max-width: 767px) {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+  }
+}
+.modal > .small-text {
+  font-size: 36px;
+  line-height: 39.6px;
+  margin: 4px 0 29px 0;
+  @media (max-width: 767px) {
+    /* margin-top: -3x; */
+    line-height: 33px;
+
+    margin: 0 0 24px 0;
+  }
+}
+#exit-and-go-train {
+  margin-top: 74px;
+  @media (max-width: 767px) {
+    margin-top: 34px;
+    width: 241px;
+    height: 68px;
+    border-radius: 13px;
+  }
+}
