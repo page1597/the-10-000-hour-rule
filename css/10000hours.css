@@ -79,7 +79,7 @@ main {
 }
 .quotation > .details {
   position: relative;
-  margin-top: 73px;
+  margin-top: 78px;
   font-family: GmarketSansMedium;
   font-size: 18px;
   line-height: 31px;
@@ -108,10 +108,10 @@ main {
   font-family: GmarketSansMedium;
   color: #ffffff;
   margin-top: 102px;
-  margin-bottom: 115px;
+  /* margin-bottom: 115px; */
   @media (max-width: 767px) {
     margin-top: 62px;
-    margin-bottom: 49px;
+    /* margin-bottom: 64px; */
   }
 }
 .resolution > .hour > span {
@@ -126,8 +126,8 @@ main {
     margin-bottom: 17px;
   }
 }
-.resolution > *:last-child {
-  margin-bottom: 0;
+.resolution > p > *:last-child {
+  margin-bottom: 0px;
 }
 .resolution > .expert > input,
 .resolution > .hour > input {
@@ -174,15 +174,20 @@ button {
 }
 .calculate-days {
   position: relative;
+  margin: 0;
+  margin-top: 115px;
+  @media (max-width: 767px) {
+    margin-top: 49px;
+  }
 }
-.calculate-days > button {
+button#calculate-days {
   @media (max-width: 767px) {
     width: 241px;
     height: 68px;
     border-radius: 13px;
   }
 }
-.calculate-days > button > span {
+button#calculate-days > span {
   @media (max-width: 767px) {
     display: block;
   }
@@ -197,12 +202,13 @@ button {
   }
 }
 .calculation-result {
-  margin: 147px 0 127px 0;
+  margin-top: 147px;
+  /* margin-bottom: 130px; */
   font-family: GmarketSansMedium;
   color: #ffffff;
 
   @media (max-width: 767px) {
-    margin: 64px 0 55px 0;
+    margin-top: 64px;
   }
 }
 
@@ -222,20 +228,30 @@ button {
 }
 .calculation-result > .expert {
   margin-bottom: 17px;
+  @media (max-width: 767px) {
+    margin-bottom: 15px;
+  }
 }
 button#share {
   background: #ffffff;
   color: #5b2386;
 }
 
-.buttons > #go-train {
+.buttons {
+  margin-top: 127px;
+  @media (max-width: 767px) {
+    margin-top: 55px;
+  }
+}
+
+.buttons > button#go-train {
   margin-right: 18px;
   @media (max-width: 767px) {
     margin-right: 13px;
   }
 }
 footer {
-  margin: 70px 0 130px 0;
+  margin: 130px 0 70px 0;
   @media (max-width: 767px) {
     margin: 83px 0 32px 0;
   }
@@ -292,13 +308,11 @@ footer {
   line-height: 39.6px;
   margin: 4px 0 29px 0;
   @media (max-width: 767px) {
-    /* margin-top: -3x; */
     line-height: 33px;
-
     margin: 0 0 24px 0;
   }
 }
-#exit-and-go-train {
+button#exit-and-go-train {
   margin-top: 74px;
   @media (max-width: 767px) {
     margin-top: 34px;
