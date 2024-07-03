@@ -294,7 +294,7 @@ footer {
     display: none;
   }
 }
-.modal > p {
+.modal > div.modal-text-container > p {
   font-family: OTEnjoystoriesBA;
   color: #5b2386;
   font-size: 96px;
@@ -306,7 +306,7 @@ footer {
     line-height: 70.4px;
   }
 }
-.modal > .small-text {
+.modal > div.modal-text-container > .small-text {
   font-size: 36px;
   line-height: 39.6px;
   margin: 4px 0 29px 0;
@@ -315,6 +315,13 @@ footer {
     margin: 0 0 24px 0;
   }
 }
+
+.modal > header,
+.modal > main,
+.modal > footer {
+  margin: 0;
+}
+
 button#exit-and-go-train {
   margin-top: 74px;
   @media (max-width: 767px) {
