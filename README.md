@@ -7,15 +7,15 @@
 
 ## 기간
 화면 구현: 2024.07.01 ~ 2024.07.01
-
-- <b>데스크탑 화면</b>
+<br /><br />
+- <b>Desktop</b>
 <img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/bd5a70de-33bb-463c-ac0f-6badf45ec354" width="800" alt="데스트탑 메인 페이지" />
+<br /><br />
 
-
-- <b>모바일 화면</b>
+- <b>Mobile</b>
 <img src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/9c47b0c8-b4aa-4aba-9dd4-a543aa30adfb" width="360" alt="모바일 메인 페이지" />
-
 <img width="300" alt="모바일 모달창" src="https://github.com/page1597/the-10000-hour-rule/assets/62283847/a27491f7-f57a-497b-a215-9bf0a97d36ec">
+
 <br /><br />
 ※ 본 서비스 내 이미지 및 콘텐츠의 저작권은 주식회사 WeNiv에 있습니다.<br />
-수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
+$~~~$수정 및 재배포, 무단 도용 시 법적인 문제가 발생할 수 있습니다.
