@@ -1,0 +1,39 @@
+.quotation {
+  color: #f5df4d;
+  font-family: OTEnjoystoriesBA;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 39.6px;
+  @media (max-width: 767px) {
+    font-size: 22px;
+    line-height: 24.2px;
+  }
+}
+.quotation > .details {
+  position: relative;
+  margin-top: 78px;
+  font-family: GmarketSansMedium;
+  font-size: 18px;
+  line-height: 31px;
+  color: #ffffff;
+
+  @media (max-width: 767px) {
+    line-height: 27px;
+    font-size: 14px;
+  }
+}
+.quotation > .details > span {
+  font-family: GmarketSansBold;
+  line-height: 24px;
+  font-size: 24px;
+  @media (max-width: 767px) {
+    line-height: 27px;
+    font-size: 14px;
+  }
+}
+.quotation > .details > img {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

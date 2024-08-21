@@ -33,6 +33,9 @@
     url("https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf")
       format("opentype");
 }
+* {
+  transition: all 0.1s ease;
+}
 
 body {
   font-family: Noto Sans KR;

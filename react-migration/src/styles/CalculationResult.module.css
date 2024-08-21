@@ -1,0 +1,69 @@
+button#calculate_days {
+  @media (max-width: 767px) {
+    width: 241px;
+    height: 68px;
+    border-radius: 13px;
+  }
+}
+button#calculate_days > span {
+  @media (max-width: 767px) {
+    display: block;
+  }
+}
+.calculate_days > img {
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 7px;
+  @media (max-width: 767px) {
+    margin-top: 30px;
+    margin-left: 6px;
+  }
+}
+.calculation_result {
+  margin-top: 147px;
+  /* margin-bottom: 130px; */
+  font-family: GmarketSansMedium;
+  color: #ffffff;
+
+  @media (max-width: 767px) {
+    margin-top: 64px;
+  }
+}
+
+.calculation_result > .expert > span,
+.calculation_result > .hour > span {
+  font-family: GmarketSansBold;
+  font-size: 72px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 12px;
+
+  @media (max-width: 767px) {
+    font-size: 24px;
+    margin: 0 8px;
+  }
+}
+.calculation_result > .expert {
+  margin-bottom: 17px;
+  @media (max-width: 767px) {
+    margin-bottom: 15px;
+  }
+}
+button.share {
+  background: #ffffff;
+  color: #5b2386;
+}
+
+button.go_train {
+  margin-right: 18px;
+  @media (max-width: 767px) {
+    margin-right: 13px;
+  }
+}
+.buttons {
+  margin-top: 127px;
+  @media (max-width: 767px) {
+    margin-top: 55px;
+  }
+}

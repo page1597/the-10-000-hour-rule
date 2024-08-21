@@ -1,0 +1,58 @@
+.modal {
+  display: none;
+  position: absolute;
+  width: 800px;
+  /* height: 800px; */
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px #00000080;
+  border-radius: 30px;
+  box-sizing: border-box;
+  padding: 76px 0 68px 0;
+  @media (max-width: 767px) {
+    width: 330px;
+    /* height: 500px; */
+    padding: 40px 0;
+  }
+}
+.modal > p > span {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+.modal > div.modal_text_container > p {
+  font-family: OTEnjoystoriesBA;
+  color: #5b2386;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 105.6px;
+  @media (max-width: 767px) {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+  }
+}
+.modal > div.modal_text_container > .small_text {
+  font-size: 36px;
+  line-height: 39.6px;
+  margin: 4px 0 29px 0;
+  @media (max-width: 767px) {
+    line-height: 33px;
+    margin: 0 0 24px 0;
+  }
+}
+
+.modal > header,
+.modal > main,
+.modal > footer {
+  margin: 0;
+}
+
+button#exit-and-go-train {
+  margin-top: 74px;
+  @media (max-width: 767px) {
+    margin-top: 34px;
+    width: 241px;
+    height: 68px;
+    border-radius: 13px;
+  }
+}

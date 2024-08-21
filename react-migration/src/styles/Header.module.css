@@ -1,0 +1,14 @@
+.title {
+  position: relative;
+  margin-top: 194px;
+  @media (max-width: 767px) {
+    margin-top: 76px;
+  }
+}
+.title > .clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
